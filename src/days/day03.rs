@@ -23,10 +23,10 @@ pub struct Day {}
 impl DailyChallenge for Day {
     fn run() {
         let total = part1("./assets/day03.txt");
-        println!("Day 01 - Part1: {}", total);
+        println!("Day 03 - Part1: {}", total);
 
         let total2 = part2("./assets/day03.txt");
-        println!("Day 01 - Part2: {}", total2);
+        println!("Day 03 - Part2: {}", total2);
     }
 
 }
